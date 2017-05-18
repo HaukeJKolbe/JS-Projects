@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tachenrechner</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="container">
+	<form id="calc" class="form" name="frm">
+		<input id="textbox" type="text" name="txt"><br>
+		<input class="btn" id="" type="button" name="brl" value="(" onclick="MyCalculator.Display(this.value)">
+		<input class="btn" id="" type="button" name="brr" value=")" onclick="MyCalculator.Display(this.value)">
+		<input class="clearAll" id="" type="button" value="CE" onclick="MyCalculator.CleaA()">
+		<input class="clearOne" id="" type="button" value="DEL1" onclick="MyCalculator.CleaO()"><br>
+		<input class="number" type="button" name="btn9" value="9" onclick="MyCalculator.Display(this.value)">
+		<input class="number" type="button" name="btn8" value="8" onclick="MyCalculator.Display(this.value)">
+		<input class="number" type="button" name="btn7" value="7" onclick="MyCalculator.Display(this.value)">
+		<input class="operator" type="button" name="btnd" value="/" onclick="MyCalculator.Display(this.value)"><br>
+		<input class="number" type="button" name="btn6" value="6" onclick="MyCalculator.Display(this.value)">
+		<input class="number" type="button" name="btn5" value="5" onclick="MyCalculator.Display(this.value)">
+		<input class="number" type="button" name="btn4" value="4" onclick="MyCalculator.Display(this.value)">
+		<input class="operator" type="button" name="btnm" value="*" onclick="MyCalculator.Display(this.value)"><br>
+		<input class="number" type="button" name="btn3" value="3" onclick="MyCalculator.Display(this.value)">
+		<input class="number" type="button" name="btn2" value="2" onclick="MyCalculator.Display(this.value)">
+		<input class="number" type="button" name="btn1" value="1" onclick="MyCalculator.Display(this.value)">
+		<input class="operator" type="button" name="btns" value="-" onclick="MyCalculator.Display(this.value)"><br>
+		<input class="btn" type="button" name="btndot" value="." onclick="">
+		<input class="number" type="button" name="btn0" value="0" onclick="MyCalculator.Display(this.value)">
+		<input class="equals" type="button" name="btneq" value="=" onclick="MyCalculator.Calculate()">
+		<input class="operator" type="button" name="btnp" value="+" onclick="MyCalculator.Display(this.value)">
+	</form>
+</div>
+<script src="calculator.js" charset="utf-8"></script>
+</body>
+</html>
